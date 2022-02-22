@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.932);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    height: 675px;
+    width: 1125px;
+    background-color: #18222c;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px 5px black;
+}
+
+.separate {
+    width: 50%;
+}
+
+.logo-area {
+    background-image: url(../image/logo\ area.png);
+    border-radius: 0 8px 8px 0;
+}
+
+.name-title, .other-info {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.name-title {
+    padding-top: 100px;
+}
+
+.name-title h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.name-title h1 p {
+    margin-left: 10px;
+    color: #f7bd18;
+}
+
+.address-main, .name-main {
+    width: 90%;
+    padding-left: 15%;
+}
+
+.name-title .title {
+    font-size: 32px;
+    font-weight: normal;
+    padding: 10px 0;
+    border-bottom: 5px solid #f7bd18;
+    width: 56%;
+}
+
+.address-logo {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 25px;
+}
+
+/* Logo Area */
+.logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-area img{
+    height: 25%;
+    width: 40%;
+    margin-top: -250px;
+}
